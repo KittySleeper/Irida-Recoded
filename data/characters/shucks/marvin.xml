@@ -1,0 +1,13 @@
+<!DOCTYPE codename-engine-character>
+<character x="120" y="50" flipX="true" camx="-975" camy="-30" isPlayer="true" applyStageMatrix="true">
+	<anim name="idle" anim="i"/>
+	<anim name="singDOWN" anim="d" x="8" y="-265"/>
+	<anim name="singRIGHT" anim="r"/>
+	<anim name="singLEFT" anim="l" x="-16" y="-3"/>
+	<anim name="singUP" anim="u" x="402" y="15"/>
+	<anim name="singDOWN-alt" anim="altd" x="8" y="-265"/>
+	<anim name="singRIGHT-alt" anim="altr"/>
+	<anim name="singLEFT-alt" anim="altl" x="-16" y="-3"/>
+	<anim name="singUP-alt" anim="altu" x="402" y="15"/>
+	<anim name="intro" anim="hellohottie" y="-135"/>
+</character>

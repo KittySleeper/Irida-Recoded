@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="-650" sprite="shucks/marvincuck" flipX="true" camx="20" camy="-250" isPlayer="true" applyStageMatrix="true">
+	<anim name="idle" anim="i"/>
+	<anim name="singDOWN" anim="d"/>
+	<anim name="singRIGHT" anim="r"/>
+	<anim name="singLEFT" anim="l"/>
+	<anim name="singUP" anim="u"/>
+	<anim name="singDOWNmiss" anim="md" x="27" y="204"/>
+	<anim name="singRIGHTmiss" anim="mr" x="12" y="279"/>
+	<anim name="singLEFTmiss" anim="ml" x="51" y="317"/>
+	<anim name="singUPmiss" anim="mu" x="1" y="422"/>
+</character>

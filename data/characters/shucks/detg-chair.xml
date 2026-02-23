@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="shucks/detgcuck" camx="-250" camy="-150" icon="shucks/detg-chair" applyStageMatrix="true">
+	<anim name="idle" anim="i"/>
+	<anim name="singDOWN" anim="d"/>
+	<anim name="singRIGHT" anim="r"/>
+	<anim name="singLEFT" anim="l"/>
+	<anim name="singUP" anim="u"/>
+</character>

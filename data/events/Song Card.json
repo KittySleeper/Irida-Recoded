@@ -1,0 +1,19 @@
+{
+	"params": [
+		{
+            "name": "Song Card Image (Optinal)",
+            "type": "String",
+            "defaultValue": ""
+        },
+		{
+            "name": "Tween Time",
+            "type": "Float(0, 99, 1, 2)",
+            "defaultValue": 1
+        },
+		{
+            "name": "Go Away Delay",
+            "type": "Float(0, 99, 1, 2)",
+            "defaultValue": 6.7
+        }
+	]
+}

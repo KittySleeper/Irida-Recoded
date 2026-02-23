@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="120" y="85" icon="shucks/detg-shadow" camx="350" camy="300">
+	<anim name="idle" anim="i"/>
+	<anim name="singDOWN" anim="d" x="47" y="-20"/>
+	<anim name="singRIGHT" anim="r" x="5" y="7"/>
+	<anim name="singLEFT" anim="l" x="1" y="-4"/>
+	<anim name="singUP" anim="u" x="2" y="61"/>
+</character>

@@ -1,0 +1,58 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/shucks/" name="shucks" zoom="1.25">
+	<sprite scale="0.4" x="-115" sprite="legs" name="run_legsdetg"/>
+	<sprite x="425" sprite="legs" y="-105" scale="0.7" name="run_legsmarv"/>
+	<character x="25" y="-50" scale="0.4" alpha="0" name="detg-run"/>
+	<character x="510" y="150" scale="0.7" alpha="0" name="marvin-shucks-run"/>
+	<sprite zoomfactor="0" scroll="0" sprite="runmulti" name="run_multi"/>
+	<sprite zoomfactor="0" scroll="0" sprite="rundarkness" name="run_dark"/>
+	<sprite zoomfactor="0" scroll="0" sprite="runadd" name="run_add"/>
+
+	<sprite sprite="chairbg" name="chair_bg"/>
+	<sprite x="1152" sprite="chair" y="4" name="chair_chair"/>
+	<sprite x="472" sprite="chairintro/bottom" y="542" scale="1.52" name="chair_introbottom"/>
+	<sprite x="575" sprite="chairintro/top" y="375" scale="1.52" name="chair_introtop"/>
+	<sprite scroll="0" sprite="chairglow" zoomfactor="0" alpha="0.4" name="chair_glow"/>
+	<sprite scroll="0" sprite="chairdark" zoomfactor="0" scale="0.55" name="chair_dark"/>
+
+	<sprite x="-1800" sprite="bg" y="-1585" name="p1_bg"/>
+
+    <girlfriend x="765" y="-600" scroll="1" scale="1.15"/>
+	<boyfriend scale="1.35" x="1670" y="75" camxoffset="-250" camyoffset="-420"/>
+	<dad x="135" y="85" scale="1.25" camxoffset="-425" camyoffset="-205"/>
+
+	<sprite x="-1800" sprite="fg" y="-1585" scrollx="1.1" name="p1_extralight">
+        <anim name="extralight" anim="extralight"/>
+    </sprite>
+	<sprite x="-1800" sprite="fg" y="-1600" scrollx="1.1" name="p1_light">
+        <anim name="light" anim="light0"/>
+    </sprite>
+	<sprite x="-1800" sprite="fg" y="-1585" scrollx="1.1" name="p1_lightbase">
+        <anim name="light" anim="lightbase"/>
+    </sprite>
+	<sprite x="-1800" sprite="fg" y="-1585" scrollx="1.1" name="p1_glow">
+        <anim name="glow" anim="glow0"/>
+        <property name="blend" type="int" value="0"/>
+    </sprite>
+	<sprite x="-1800" sprite="fg" y="-1585" alpha="0.6" scrollx="1.1" name="p1_glow3">
+        <anim name="glow" anim="glow3"/>
+        <property name="blend" type="int" value="0"/>
+    </sprite>
+	<sprite x="-1800" sprite="fg" y="-1785" scrollx="0.8" name="p1_chain">
+        <anim name="chain" anim="chain"/>
+    </sprite>
+	<sprite x="-1800" sprite="fg" y="-1785" scrollx="0.7" name="p1_hook">
+        <anim name="hook" anim="hook"/>
+    </sprite>
+
+	<sprite x="-320" y="-180" scroll="0" sprite="glow" zoomfactor="0" scale="0.7" name="p1_glow2">
+        <property name="blend" type="int" value="9"/>
+    </sprite>
+
+	<sprite x="-320" y="-180" scroll="0" sprite="darknessred" zoomfactor="0" scale="0.7" name="p1_darknessred">
+        <property name="blend" type="int" value="9"/>
+    </sprite>
+	<sprite x="-320" y="-205" sprite="darkness" zoomfactor="0" scroll="0.05" scale="0.75" name="p1_darkness">
+        <property name="blend" type="int" value="9"/>
+    </sprite>
+    </stage>

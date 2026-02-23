@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="50" y="150" camx="-160" camy="-100" applyStageMatrix="true">
+	<anim name="idle" anim="idleleft"/>
+	<anim name="look" anim="lookleft"/>
+	<anim name="idle-alt" anim="idleright"/>
+	<anim name="look-alt" anim="lookright"/>
+	<anim name="singDOWN" anim="down"/>
+	<anim name="singRIGHT" anim="right"/>
+	<anim name="singLEFT" anim="left"/>
+	<anim name="singUP" anim="up"/>
+	<anim name="shut" anim="voiceline" x="-50" y="-385"/>
+</character>

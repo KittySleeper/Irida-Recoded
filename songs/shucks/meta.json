@@ -1,0 +1,14 @@
+{
+	"opponentModeAllowed": false,
+	"icon": "detg",
+	"difficulties": [
+		"hard"
+	],
+	"coopAllowed": false,
+	"color": "#9271FD",
+	"stepsPerBeat": 4,
+	"displayName": "shucks",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 195
+}
