@@ -12,7 +12,7 @@ function phaseOne() {
         hudType: "default",
         mainColor: 0xFF8B0000,
         secondaryColor: 0xFF140000,
-        flipped: true
+        flipped: false
     });
 
     scripts.call("regenHud");
