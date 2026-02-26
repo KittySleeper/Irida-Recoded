@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character x="120" y="50" flipX="true" camx="-975" camy="-30" isPlayer="true" applyStageMatrix="true">
+<character color="#B21A1A" icon="marvin-shucks" x="120" y="50" flipX="true" camx="-975" camy="-30" isPlayer="true" applyStageMatrix="true">
 	<anim name="idle" anim="i"/>
 	<anim name="singDOWN" anim="d" x="8" y="-265"/>
 	<anim name="singRIGHT" anim="r"/>

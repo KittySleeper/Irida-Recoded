@@ -1510,16 +1510,8 @@
 				4,
 				"camHUD"
 			],
-			"time": 299076.923076923,
+			"time": 299230.769230769,
 			"name": "Camera Flash"
-		},
-		{
-			"params": [
-				"chairPhase",
-				""
-			],
-			"time": 299076.923076923,
-			"name": "HScript Call"
 		},
 		{
 			"params": [
@@ -1527,7 +1519,7 @@
 				"shucks/marvin-chair",
 				0
 			],
-			"time": 299076.923076923,
+			"time": 299230.769230769,
 			"name": "Change Character"
 		},
 		{
@@ -1536,18 +1528,18 @@
 				"shucks/detg-chair",
 				0
 			],
-			"time": 299076.923076923,
+			"time": 299230.769230769,
 			"name": "Change Character"
 		},
 		{
 			"params": [
 				1,
-				true,
+				false,
 				4,
 				"CLASSIC",
 				"In"
 			],
-			"time": 299076.923076923,
+			"time": 299230.769230769,
 			"name": "Camera Movement"
 		},
 		{
@@ -1561,8 +1553,16 @@
 				"direct",
 				false
 			],
-			"time": 299076.923076923,
+			"time": 299230.769230769,
 			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				"chairPhase",
+				""
+			],
+			"time": 299230.769230769,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
@@ -1796,9 +1796,12 @@
 			"time": 336615.384615385
 		}
 	],
+	"stage": "shucks",
 	"strumLines": [
 		{
 			"keyCount": 4,
+			"strumScale": 1,
+			"position": "dad",
 			"notes": [
 				{
 					"id": 1,
@@ -1808,7 +1811,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 230.769230769156,
+					"sLen": 230.769230769149,
 					"time": 14769.2307692308,
 					"type": 0
 				},
@@ -1988,7 +1991,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 76.9230769232454,
+					"sLen": 76.9230769232563,
 					"time": 21230.7692307692,
 					"type": 0
 				},
@@ -2042,7 +2045,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 76.9230769232454,
+					"sLen": 76.9230769232563,
 					"time": 23076.9230769231,
 					"type": 0
 				},
@@ -2228,7 +2231,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 76.9230769234055,
+					"sLen": 76.9230769234273,
 					"time": 45230.7692307692,
 					"type": 0
 				},
@@ -2804,7 +2807,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 230.769230768892,
+					"sLen": 230.76923076887,
 					"time": 65230.7692307692,
 					"type": 0
 				},
@@ -3674,7 +3677,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 76.9230769237329,
+					"sLen": 76.9230769237765,
 					"time": 92923.0769230769,
 					"type": 0
 				},
@@ -4304,7 +4307,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 153.846153846491,
+					"sLen": 153.846153846549,
 					"time": 118615.384615385,
 					"type": 0
 				},
@@ -4328,7 +4331,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 153.846153845836,
+					"sLen": 153.846153845821,
 					"time": 119692.307692308,
 					"type": 0
 				},
@@ -4364,7 +4367,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 153.846153846491,
+					"sLen": 153.846153846549,
 					"time": 120615.384615385,
 					"type": 0
 				},
@@ -4556,7 +4559,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 76.9230769227579,
+					"sLen": 76.9230769226997,
 					"time": 125538.461538462,
 					"type": 0
 				},
@@ -11953,23 +11956,23 @@
 					"type": 0
 				}
 			],
-			"position": "dad",
-			"strumScale": 1,
-			"strumSpacing": 1,
-			"visible": true,
-			"type": 0,
 			"characters": [
 				"shucks/detg-shadow"
 			],
+			"type": 0,
+			"visible": true,
+			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"vocalsSuffix": "",
-			"strumLinePos": 0.25
+			"strumLinePos": 0.25,
+			"vocalsSuffix": ""
 		},
 		{
 			"keyCount": 4,
+			"strumScale": 1,
+			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 1,
@@ -11979,7 +11982,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 230.769230769409,
+					"sLen": 230.76923076942,
 					"time": 24615.3846153846,
 					"type": 0
 				},
@@ -14079,7 +14082,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 153.846153846491,
+					"sLen": 153.846153846549,
 					"time": 118615.384615385,
 					"type": 0
 				},
@@ -14109,7 +14112,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 153.846153845836,
+					"sLen": 153.846153845821,
 					"time": 119692.307692308,
 					"type": 0
 				},
@@ -14151,7 +14154,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 153.846153845836,
+					"sLen": 153.846153845821,
 					"time": 120692.307692308,
 					"type": 0
 				},
@@ -14247,13 +14250,13 @@
 				},
 				{
 					"id": 1,
-					"sLen": 461.538461538134,
+					"sLen": 461.53846153809,
 					"time": 125538.461538462,
 					"type": 0
 				},
 				{
 					"id": 3,
-					"sLen": 307.692307692356,
+					"sLen": 307.692307692399,
 					"time": 126769.230769231,
 					"type": 0
 				},
@@ -16401,7 +16404,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 307.692307692982,
+					"sLen": 307.692307693098,
 					"time": 245538.461538462,
 					"type": 0
 				},
@@ -16785,7 +16788,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 76.9230769237329,
+					"sLen": 76.9230769238202,
 					"time": 257538.461538462,
 					"type": 0
 				},
@@ -22881,7 +22884,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 76.9230769246351,
+					"sLen": 76.9230769248679,
 					"time": 486615.384615385,
 					"type": 0
 				},
@@ -22989,7 +22992,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 1076.92307692464,
+					"sLen": 1076.92307692487,
 					"time": 488615.384615385,
 					"type": 0
 				},
@@ -23276,25 +23279,21 @@
 					"type": 0
 				}
 			],
-			"position": "boyfriend",
-			"strumScale": 1,
-			"strumSpacing": 1,
-			"visible": true,
-			"type": 1,
 			"characters": [
 				"shucks/marvin-shadow"
 			],
+			"type": 1,
+			"visible": true,
+			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"vocalsSuffix": "",
-			"strumLinePos": 0.75
+			"strumLinePos": 0.75,
+			"vocalsSuffix": ""
 		},
 		{
 			"keyCount": 4,
-			"strumScale": 0.5,
-			"position": "girlfriend",
 			"notes": [
 				{
 					"id": 0,
@@ -24099,29 +24098,24 @@
 					"sLen": 461.538461538643,
 					"time": 184000,
 					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 258153.846153846,
-					"type": 0
 				}
 			],
+			"position": "girlfriend",
+			"strumScale": 0.5,
+			"strumSpacing": 1,
+			"visible": false,
+			"type": 2,
 			"characters": [
 				"shucks/rose"
 			],
-			"type": 2,
-			"visible": false,
-			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"strumLinePos": 0.5,
-			"vocalsSuffix": ""
+			"vocalsSuffix": "",
+			"strumLinePos": 0.5
 		}
 	],
-	"stage": "shucks",
 	"scrollSpeed": 3.1,
 	"chartVersion": "1.6.0",
 	"codenameChart": true,

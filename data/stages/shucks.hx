@@ -38,7 +38,23 @@ function chairPhase() {
         if (!StringTools.contains(obj, "chair"))
             PlayState.instance.stage.stageSprites.get(obj).visible = false;
 
-    gf.visible = false;
+    new FlxTimer().start(0.05, (t) -> {
+        gf.visible = dad.visible = boyfriend.visible = false;
+    });
+
+    chair_introtop.playAnim('intro', true);
+    chair_introbottom.playAnim('intro', true);
+
+    chair_introtop.animation.finishCallback = (anim:String) -> {
+        trace("marvin throw lol");
+        chair_introtop.visible = false;
+        boyfriend.visible = true;
+    };
+
+    chair_introbottom.animation.finishCallback = (anim:String) -> {
+        chair_introbottom.visible = false;
+        dad.visible = true;
+    };
 }
 
 function normalLight() {

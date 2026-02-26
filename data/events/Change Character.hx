@@ -47,11 +47,6 @@ function onEvent(event) {
 		var newChar:Character = charMap[params.strumIndex][params.charIndex].get(params.charName);
 		var charPosition = PlayState.instance.stage.characterPoses.get(strumLines.members[params.strumIndex].data.position);
 		if (oldChar.curCharacter == newChar.curCharacter) return;
-
-		if (params.charIndex == 0) {
-			if (params.strumIndex == 0) iconP2.setIcon(newChar.getIcon());
-			else if (params.strumIndex == 1) iconP1.setIcon(newChar.getIcon());
-		}
 		insert(members.indexOf(oldChar), newChar);
 		newChar.visible = true;
 		remove(oldChar);
@@ -64,5 +59,14 @@ function onEvent(event) {
 		newChar.playAnim(oldChar.animation.name);
 		newChar.animation?.curAnim?.curFrame = oldChar.animation?.curAnim?.curFrame;
 		strumLines.members[params.strumIndex].characters[params.charIndex] = newChar;
+
+		if (params.charIndex == 0) {
+			if (params.strumIndex == 0) iconP2.setIcon(newChar.getIcon());
+			else if (params.strumIndex == 1) iconP1.setIcon(newChar.getIcon());
+		}
+
+		var leftColor:Int = dad != null && dad.iconColor != null && Options.colorHealthBar ? dad.iconColor : (opponentMode ? 0xFF66FF33 : 0xFFFF0000);
+		var rightColor:Int = boyfriend != null && boyfriend.iconColor != null && Options.colorHealthBar ? boyfriend.iconColor : (opponentMode ? 0xFFFF0000 : 0xFF66FF33); // switch the colors
+		healthBar.createFilledBar(leftColor, rightColor);
 	}
 }

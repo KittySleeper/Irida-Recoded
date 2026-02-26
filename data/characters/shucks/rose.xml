@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character x="50" y="150" camx="-160" camy="-100" applyStageMatrix="true">
+<character icon="rose" x="50" y="150" camx="-160" camy="-100" applyStageMatrix="true">
 	<anim name="idle" anim="idleleft"/>
 	<anim name="look" anim="lookleft"/>
 	<anim name="idle-alt" anim="idleright"/>

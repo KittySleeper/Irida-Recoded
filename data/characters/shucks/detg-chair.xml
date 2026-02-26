@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character sprite="shucks/detgcuck" camx="-250" camy="-150" icon="shucks/detg-chair" applyStageMatrix="true" x="510" y="425" scale="1.13">
+<character color="#B25F35" icon="detg" sprite="shucks/detgcuck" camx="-250" camy="-150" applyStageMatrix="true" x="510" y="425" scale="1.13">
 	<anim name="idle" anim="i"/>
 	<anim name="singDOWN" anim="d"/>
 	<anim name="singRIGHT" anim="r"/>

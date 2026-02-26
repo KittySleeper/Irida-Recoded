@@ -11,8 +11,12 @@
 
 	<sprite sprite="chairbg" name="chair_bg"/>
 	<sprite x="1152" sprite="chair" y="4" name="chair_chair"/>
-	<sprite x="472" sprite="chairintro/bottom" y="542" scale="1.52" name="chair_introbottom"/>
-	<sprite x="575" sprite="chairintro/top" y="375" scale="1.52" name="chair_introtop"/>
+	<sprite x="472" sprite="chairintro/bottom" y="542" scale="1.52" name="chair_introbottom">
+        <anim name="intro" anim="intro"/>
+    </sprite>
+	<sprite x="575" sprite="chairintro/top" y="375" scale="1.52" name="chair_introtop">
+        <anim name="intro" anim="intro"/>
+    </sprite>
 	<sprite scroll="0" sprite="chairglow" zoomfactor="0" alpha="0.4" name="chair_glow"/>
 	<sprite scroll="0" sprite="chairdark" zoomfactor="0" scale="0.55" name="chair_dark" x="-550" y="-520">
 		<property name="blend" type="int" value="9"/>
