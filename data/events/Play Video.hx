@@ -40,3 +40,13 @@ function onEvent(event){
         }
     }
 }
+
+function onSubstateOpen(e)
+    for (obj in videoMap.keys())
+        if (videoMap.get(obj).visible)
+            videoMap.get(obj).pause();
+
+function onSubstateClose(e)
+    for (obj in videoMap.keys())
+        if (videoMap.get(obj).visible)
+            videoMap.get(obj).play();

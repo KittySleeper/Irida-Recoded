@@ -26,7 +26,7 @@ function postCreate() {
 						var newChar:Character = new Character(char.x, char.y, charName, char.isPlayer);
 						if (debugMode) trace('New Character: ' + newChar.curCharacter);
 						charMap[strumIndex][charIndex].set(newChar.curCharacter, newChar);
-						newChar.active = newChar.visible = false;
+						newChar.visible = false;
 						newChar.drawComplex(FlxG.camera);
 					}
 				}
@@ -53,11 +53,12 @@ function onEvent(event) {
 			else if (params.strumIndex == 1) iconP1.setIcon(newChar.getIcon());
 		}
 		insert(members.indexOf(oldChar), newChar);
-		newChar.active = newChar.visible = true;
+		newChar.visible = true;
 		remove(oldChar);
 		
 		newChar.setPosition(charPosition.x, charPosition.y);
-		newChar.scale.set(charPosition.scale.x, charPosition.scale.y);
+		newChar.scale.x *= charPosition.scale.x;
+		newChar.scale.y *= charPosition.scale.y;
 		newChar.cameraOffset.x += charPosition.camxoffset;
 		newChar.cameraOffset.y += charPosition.camyoffset;
 		newChar.playAnim(oldChar.animation.name);

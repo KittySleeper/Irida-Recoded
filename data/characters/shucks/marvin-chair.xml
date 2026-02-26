@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character x="-650" sprite="shucks/marvincuck" flipX="true" camx="20" camy="-250" isPlayer="true" applyStageMatrix="true">
+<character sprite="shucks/marvincuck" flipX="true" camx="150" camy="-250" isPlayer="true" applyStageMatrix="true" x="-250" y="735">
 	<anim name="idle" anim="i"/>
 	<anim name="singDOWN" anim="d"/>
 	<anim name="singRIGHT" anim="r"/>
