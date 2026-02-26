@@ -42,16 +42,22 @@ function chairPhase() {
 }
 
 function normalLight() {
-    FlxTween.tween(bloom, {Intensity: 1}, 1.25, {ease: FlxEase.circInOut});
-    FlxTween.tween(colorShit, {contrast: 30, hue: -10, saturation: -10, brightness: 0}, 1.25, {ease: FlxEase.circInOut});
+    if (Options.gameplayShaders) {
+        FlxTween.tween(bloom, {Intensity: 1}, 1.25, {ease: FlxEase.circInOut});
+        FlxTween.tween(colorShit, {contrast: 30, hue: -10, saturation: -10, brightness: 0}, 1.25, {ease: FlxEase.circInOut});
+    }
 }
 
 function darkLight() {
-    FlxTween.tween(bloom, {Intensity: -0.05}, 1.25, {ease: FlxEase.circInOut});
-    FlxTween.tween(colorShit, {contrast: 50, hue: 1.25, saturation: 100, brightness: -50}, 1.25, {ease: FlxEase.circInOut});
+    if (Options.gameplayShaders) {
+        FlxTween.tween(bloom, {Intensity: -0.05}, 1.25, {ease: FlxEase.circInOut});
+        FlxTween.tween(colorShit, {contrast: 50, hue: 1.25, saturation: 100, brightness: -50}, 1.25, {ease: FlxEase.circInOut});
+    }
 }
 
 function brightLight() {
-    FlxTween.tween(bloom, {Intensity: 1.35}, 0.95, {ease: FlxEase.circInOut});
-    FlxTween.tween(colorShit, {contrast: 0.35, hue: -25, saturation: 20, brightness: 5}, 0.95, {ease: FlxEase.circInOut});
+    if (Options.gameplayShaders) {
+        FlxTween.tween(bloom, {Intensity: 1.35}, 0.95, {ease: FlxEase.circInOut});
+        FlxTween.tween(colorShit, {contrast: 0.35, hue: -25, saturation: 20, brightness: 5}, 0.95, {ease: FlxEase.circInOut});
+    }
 }
