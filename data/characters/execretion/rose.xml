@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character>
+<character x="150" y="25" flipX="true" camx="-45" isPlayer="true" icon="rose" color="#77BDCE" holdTime="5.5">
+	<anim name="idle" anim="Rose Execretion"/>
+	<anim name="singDOWN" anim="Rose Down0" x="93" y="-5"/>
+	<anim name="singRIGHT" anim="Rose Right0" x="29" y="-71"/>
+	<anim name="singLEFT" anim="Rose Left0" x="153" y="-13"/>
+	<anim name="singUP" anim="Rose Up0" x="95" y="8"/>
+	<anim name="ew" anim="Ew" x="38" y="-51"/>
+	<anim name="scream" anim="rose screm" x="72" y="244"/>
+</character>

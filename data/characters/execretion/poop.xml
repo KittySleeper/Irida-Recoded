@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character color="#BA854D" icon="poop" x="-45" sprite="execretion/nupoop">
+	<anim name="idle" anim="idle"/>
+	<anim name="singDOWN" anim="down" x="15" y="-86"/>
+	<anim name="singRIGHT" anim="right" x="-24" y="-122"/>
+	<anim name="singLEFT" anim="left" x="98" y="-82"/>
+	<anim name="singUP" anim="up" x="-81" y="47"/>
+	<anim name="laugh" anim="Symbol 1" x="-97" y="-50"/>
+</character>

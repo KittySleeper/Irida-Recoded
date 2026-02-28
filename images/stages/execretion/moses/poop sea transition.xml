@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="poop sea transition.png" width="8193" height="7611">
+	<SubTexture name="poop_wave0000" x="1114" y="2" width="1489" height="564" frameX="-810" frameY="-527" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0001" x="1554" y="6411" width="1510" height="995" frameX="-785" frameY="-83" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0002" x="2835" y="5467" width="1545" height="942" frameX="-769" frameY="-127" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0003" x="3066" y="6608" width="1437" height="1001" frameX="-836" frameY="-127" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0004" x="5726" y="5665" width="2247" height="942" frameX="-0" frameY="-127" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0005" x="3385" y="4588" width="1522" height="877" frameX="-763" frameY="-138" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0006" x="1424" y="5225" width="1409" height="932" frameX="-831" frameY="-167" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0007" x="4909" y="4780" width="1431" height="878" frameX="-843" frameY="-119" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0008" x="2607" y="2030" width="1555" height="758" frameX="-674" frameY="-155" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0009" x="2404" y="2790" width="1527" height="775" frameX="-751" frameY="-206" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0010" x="2" y="3494" width="1455" height="804" frameX="-778" frameY="-218" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0011" x="4668" y="3775" width="1467" height="811" frameX="-800" frameY="-178" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0012" x="2" y="1210" width="1454" height="740" frameX="-795" frameY="-196" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0013" x="6137" y="3960" width="1345" height="818" frameX="-868" frameY="-162" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0014" x="2" y="5178" width="1420" height="909" frameX="-831" frameY="-98" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0015" x="5316" y="2136" width="1409" height="787" frameX="-872" frameY="-164" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0016" x="2268" y="3567" width="1374" height="804" frameX="-844" frameY="-143" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0017" x="1129" y="1985" width="1476" height="755" frameX="-805" frameY="-177" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0018" x="2906" y="1280" width="1291" height="748" frameX="-967" frameY="-174" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0019" x="6150" y="641" width="1424" height="738" frameX="-811" frameY="-182" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0020" x="1458" y="1240" width="1446" height="743" frameX="-808" frameY="-177" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0021" x="5360" y="1381" width="1467" height="753" frameX="-834" frameY="-167" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0022" x="4199" y="1302" width="1159" height="750" frameX="-1040" frameY="-168" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0023" x="6829" y="1596" width="1299" height="762" frameX="-949" frameY="-158" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0024" x="3461" y="592" width="1502" height="686" frameX="-794" frameY="-158" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0025" x="6554" y="3155" width="1310" height="803" frameX="-913" frameY="-156" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0026" x="4164" y="2054" width="1150" height="791" frameX="-1004" frameY="-164" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0027" x="3933" y="2847" width="1041" height="795" frameX="-1242" frameY="-160" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0028" x="4976" y="2925" width="794" height="795" frameX="-1471" frameY="-160" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0029" x="7576" y="799" width="498" height="795" frameX="-1705" frameY="-160" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0030" x="2" y="128" width="242" height="795" frameX="-1887" frameY="-170" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0031" x="7968" y="2" width="223" height="795" frameX="-2104" frameY="-166" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0032" x="2" y="2" width="87" height="56" frameX="-962" frameY="-270" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0033" x="404" y="2" width="288" height="538" frameX="-949" frameY="-270" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0034" x="5003" y="2" width="466" height="599" frameX="-948" frameY="-266" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0035" x="5471" y="2" width="724" height="609" frameX="-866" frameY="-260" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0036" x="6197" y="2" width="864" height="620" frameX="-905" frameY="-256" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0037" x="7063" y="2" width="903" height="637" frameX="-1047" frameY="-247" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0038" x="246" y="568" width="1236" height="640" frameX="-898" frameY="-244" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0039" x="2382" y="584" width="1077" height="654" frameX="-1057" frameY="-238" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0040" x="4965" y="613" width="1183" height="687" frameX="-951" frameY="-217" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0041" x="2" y="4351" width="1739" height="825" frameX="-588" frameY="-121" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0042" x="6342" y="4780" width="1382" height="883" frameX="-760" frameY="-63" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0043" x="4382" y="5660" width="1342" height="946" frameX="-878" frameY="-0" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0044" x="2" y="6159" width="1550" height="964" frameX="-1071" frameY="-6" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0045" x="2" y="1952" width="1125" height="780" frameX="-921" frameY="-194" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0046" x="6727" y="2360" width="1121" height="793" frameX="-1122" frameY="-188" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0047" x="1484" y="568" width="896" height="653" frameX="-1319" frameY="-334" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0048" x="3753" y="2" width="1248" height="588" frameX="-952" frameY="-332" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0049" x="2605" y="2" width="1146" height="580" frameX="-953" frameY="-348" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0050" x="2" y="2742" width="2400" height="750" frameX="-663" frameY="-282" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0051" x="1743" y="4373" width="1640" height="850" frameX="-606" frameY="-282" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0052" x="5772" y="2925" width="780" height="848" frameX="-1006" frameY="-282" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0053" x="1459" y="3494" width="807" height="855" frameX="-1390" frameY="-277" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0054" x="3644" y="3644" width="1022" height="855" frameX="-1565" frameY="-277" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0055" x="694" y="2" width="418" height="547" frameX="-1721" frameY="-277" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0056" x="165" y="2" width="237" height="124" frameX="-1891" frameY="-277" frameWidth="3063" frameHeight="1132"/>
+	<SubTexture name="poop_wave0057" x="91" y="2" width="72" height="60" frameX="-2060" frameY="-277" frameWidth="3063" frameHeight="1132"/>
+</TextureAtlas>

@@ -29,9 +29,9 @@ function update(elapsed:Float) {
 }
 
 function phaseOne() {
-    // if (Options.gameplayShaders)
-    //     for (i in [bloom, colorShit])
-    //         camGame.addShader(i);
+    if (Options.gameplayShaders)
+        for (i in [bloom, colorShit])
+            camGame.addShader(i);
 
     for (obj in PlayState.instance.stage.stageSprites.keys())
         PlayState.instance.stage.stageSprites.get(obj).visible = true;

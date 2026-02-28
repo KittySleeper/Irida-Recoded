@@ -1,0 +1,24 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/execretion/" name="execretion" zoom="0.5">
+	<sprite x="-1476.38420068702" scroll="0.25" sprite="normal/bg" y="-752.921130762402" type="none" name="phaseone_bg"/>
+	<sprite x="-1812.23284992415" scroll="0.35" sprite="normal/sea" y="-43.9137853932659" type="none" skewx="0.000168524567513941" scaley="1.00000333639412" name="phaseone_water"/>
+	<sprite x="-63.6179825379194" scroll="0.35" sprite="normal/cloud1" y="-354.558758052538" type="none" name="phaseone_cloud"/>
+	<sprite x="911.995617783432" scroll="0.3" sprite="normal/cloud2" y="-527.996737674873" type="none" name="phaseone_cloudt"/>
+	<sprite x="-1610.4683731522" scroll="0.3" sprite="normal/cloud3" y="-628.937619744068" type="none" name="phaseone_cloudth"/>
+	<sprite x="464.020034576026" scroll="0.3" sprite="sun" y="-93.2717132202972" type="none" scale="1.73165680473373" name="sun"/>
+	<sprite x="78.9263189724874" scroll="0.5" sprite="normal/blocks" y="-228.460635319625" type="none" name="phaseone_blocks"/>
+	<sprite x="-832.887877965584" scroll="0.85" sprite="normal/block3" y="-576.614684745404" type="none" name="phaseone_blockth"/>
+	<sprite x="-1114.78861633752" sprite="normal/block1" y="-387.957271625389" type="none" scale="1.06889064333876" name="phaseone_blocko"/>
+	<sprite x="1780.90747914458" scroll="0.85" sprite="normal/block4" y="-554.546170847769" type="none" name="phaseone_blockf"/>
+	<sprite x="1681.83949334344" sprite="normal/block2" y="-386.662606013928" type="none" scale="1.07" name="phaseone_blockt"/>
+	<sprite x="-1451.27188179814" scroll="0.3" sprite="light" y="-783.138124126295" type="none" scale="1.06307886519951" name="light">
+		<property name="blend" type="int" value="0"/>
+    </sprite>
+	<sprite x="760" scroll="0.9" sprite="normal/pipe1" y="-263" type="none" scale="1.12" name="phaseone_pipe"/>
+	<sprite x="-290" scroll="0.9" sprite="normal/pipe3" y="-100" type="none" name="phaseone_pipeth"/>
+	<sprite x="-1492.86432384896" sprite="normal/floor" y="44.1957183568128" type="none" name="phaseone_floor"/>
+	<girlfriend/>
+	<dad x="-163.986531642977" y="-498.010306374909"/>
+	<boyfriend x="958.561808316413" y="-500.704046493715"/>
+	<sprite x="1486.36107574797" scroll="1.15" sprite="normal/pipe2" y="99.8906614945458" type="none" scale="1.12948386925531" name="phaseone_pipet"/>
+</stage>

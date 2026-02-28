@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="Pictures.png" width="6154" height="3956">
+	<SubTexture name="The_Pictures0000" x="2053" y="0" width="2048" height="3845" frameX="-0" frameY="-140" frameWidth="2048" frameHeight="3985"/>
+	<SubTexture name="The_Pictures0001" x="2053" y="0" width="2048" height="3845" frameX="-0" frameY="-140" frameWidth="2048" frameHeight="3985"/>
+	<SubTexture name="The_Pictures0002" x="4106" y="0" width="2048" height="3956" frameX="-0" frameY="-0" frameWidth="2048" frameHeight="3985"/>
+	<SubTexture name="The_Pictures0003" x="4106" y="0" width="2048" height="3956" frameX="-0" frameY="-0" frameWidth="2048" frameHeight="3985"/>
+	<SubTexture name="The_Pictures0004" x="0" y="0" width="2048" height="3674" frameX="-0" frameY="-40" frameWidth="2048" frameHeight="3985"/>
+</TextureAtlas>
