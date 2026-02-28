@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-1190" camx="375" camy="250" scale="0.62" sprite="shucks/marvin-shucks-run" flipX="true" isPlayer="true" icon="marvin-shucks-bloody" color="#B21A1A" applyStageMatrix="true">
+	<anim name="idle" anim="i" loop="true"/>
+	<anim name="singDOWN" anim="d" x="-140" y="-66"/>
+	<anim name="singRIGHT" anim="r" x="-182" y="-13"/>
+	<anim name="singLEFT" anim="l" x="35" y="4"/>
+	<anim name="singUP" anim="u" x="-218" y="112"/>
+</character>

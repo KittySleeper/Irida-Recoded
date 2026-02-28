@@ -4,6 +4,8 @@ var bloom:CustomShader;
 var colorShit:CustomShader;
 
 function postCreate() {
+    p1_light.origin.y = p1_glow.origin.y = 0;
+
     if (Options.gameplayShaders) {
         bloom = new CustomShader('bloom');
         bloom.Threshold = 0.005;
@@ -22,10 +24,14 @@ function postCreate() {
     gf.visible = false;
 }
 
+function update(elapsed:Float) {
+    p1_light.angle = p1_glow.angle = Math.sin(Conductor.songPosition / 1000) * 7.5;
+}
+
 function phaseOne() {
-    if (Options.gameplayShaders)
-        for (i in [bloom, colorShit])
-            camGame.addShader(i);
+    // if (Options.gameplayShaders)
+    //     for (i in [bloom, colorShit])
+    //         camGame.addShader(i);
 
     for (obj in PlayState.instance.stage.stageSprites.keys())
         PlayState.instance.stage.stageSprites.get(obj).visible = true;
@@ -37,6 +43,8 @@ function chairPhase() {
     for (obj in PlayState.instance.stage.stageSprites.keys())
         if (!StringTools.contains(obj, "chair"))
             PlayState.instance.stage.stageSprites.get(obj).visible = false;
+        else
+            PlayState.instance.stage.stageSprites.get(obj).visible = true;
 
     new FlxTimer().start(0.05, (t) -> {
         gf.visible = dad.visible = boyfriend.visible = false;
@@ -46,16 +54,48 @@ function chairPhase() {
     chair_introbottom.playAnim('intro', true);
 
     chair_introtop.animation.finishCallback = (anim:String) -> {
-        trace("marvin throw lol");
         chair_introtop.visible = false;
         boyfriend.visible = true;
     };
 
     chair_introbottom.animation.finishCallback = (anim:String) -> {
         chair_introbottom.visible = false;
-        dad.visible = true;
+        dad.visible = gf.visible = true;
     };
 }
+
+function runningPhase() {
+    for (obj in PlayState.instance.stage.stageSprites.keys())
+        if (!StringTools.contains(obj, "run"))
+            PlayState.instance.stage.stageSprites.get(obj).visible = false;
+        else
+            PlayState.instance.stage.stageSprites.get(obj).visible = true;
+
+    gf.visible = run_legsdetg.visible = false;
+
+    run_bg.playAnim("intro");
+
+    run_bg.animation.finishCallback = (anim:String) -> {
+        run_bg.playAnim("hall", true);
+    };
+
+    dad.animation.finishCallback = (anim:String) -> {
+        run_legsdetg.visible = true;
+    };
+
+    new FlxTimer().start(0.05, (t) -> {
+        dad.playAnim("intro", true);
+        dad.animation.finishCallback = (anim:String) -> {
+            run_legsdetg.visible = true;
+        };    
+    });
+}
+
+function thereisbloodthereisbodies()
+    run_bg.playAnim("hallbloody", true);
+
+function shuckyducky()
+    run_bg.playAnim("end", true);
 
 function normalLight() {
     if (Options.gameplayShaders) {

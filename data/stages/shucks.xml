@@ -1,13 +1,27 @@
 <!DOCTYPE codename-engine-stage>
 <stage folder="stages/shucks/" name="shucks" zoom="1.25">
 
-	<sprite scale="0.4" x="-115" sprite="legs" name="run_legsdetg"/>
-	<sprite x="425" sprite="legs" y="-105" scale="0.7" name="run_legsmarv"/>
-	<character x="25" y="-50" scale="0.4" alpha="0" name="detg-run"/>
-	<character x="510" y="150" scale="0.7" alpha="0" name="marvin-shucks-run"/>
-	<sprite zoomfactor="0" scroll="0" sprite="runmulti" name="run_multi"/>
-	<sprite zoomfactor="0" scroll="0" sprite="rundarkness" name="run_dark"/>
-	<sprite zoomfactor="0" scroll="0" sprite="runadd" name="run_add"/>
+	<sprite sprite="runhallway" scale="1.1" name="run_bg">
+        <anim name="intro" anim="intro"/>
+        <anim name="hall" anim="loop" loop="true"/>
+        <anim name="hallbloody" anim="bodies" loop="true"/>
+        <anim name="end" anim="end"/>
+    </sprite>
+	<sprite scale="0.4" x="-115" sprite="legs" name="run_legsdetg">
+        <anim name="run" anim="detg" loop="true"/>
+    </sprite>
+	<sprite x="425" sprite="legs" y="-105" scale="0.7" name="run_legsmarv">
+        <anim name="run" anim="marv" loop="true"/>
+    </sprite>
+	<sprite zoomfactor="0" scroll="0" sprite="runmulti" name="run_multi">
+		<property name="blend" type="int" value="9"/>
+    </sprite>
+	<sprite zoomfactor="0" scroll="0" sprite="rundarkness" name="run_dark">
+		<property name="blend" type="int" value="9"/>
+    </sprite>
+	<sprite zoomfactor="0" scroll="0" sprite="runadd" name="run_add">
+		<property name="blend" type="int" value="0"/>
+    </sprite>
 
 	<sprite sprite="chairbg" name="chair_bg"/>
 	<sprite x="1152" sprite="chair" y="4" name="chair_chair"/>
@@ -24,9 +38,9 @@
 
 	<sprite x="-1800" sprite="bg" y="-1585" name="p1_bg"/>
 
-    <girlfriend x="765" y="-600" scroll="1" scale="1.15"/>
 	<dad x="135" y="85" scale="1.25" camxoffset="-425" camyoffset="-205"/>
 	<boyfriend scale="1.35" x="1670" y="75" camxoffset="-250" camyoffset="-420"/>
+    <girlfriend x="765" y="-600" scroll="1" scale="1.15"/>
 
 	<sprite x="-1800" sprite="fg" y="-1585" scrollx="1.1" name="p1_extralight">
         <anim name="extralight" anim="extralight"/>

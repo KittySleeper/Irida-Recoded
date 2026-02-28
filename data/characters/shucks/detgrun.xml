@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character>
+<character color="#B25F35" icon="detg" sprite="shucks/detg-run" camx="350" camy="400" scale="0.37" x="-40" y="-150">
+	<anim name="idle" anim="i" loop="true"/>
+	<anim name="singDOWN" anim="d" x="-92" y="-161"/>
+	<anim name="singRIGHT" anim="r" x="-178" y="-63"/>
+	<anim name="singLEFT" anim="l" x="208" y="-32"/>
+	<anim name="singUP" anim="u" x="-48" y="222"/>
+	<anim name="intro" anim="start" x="300" y="302"/>
+	<anim name="end" anim="fall" x="16" y="183"/>
+</character>
